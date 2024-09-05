@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(135deg, #dbace5 0%, #d902fb 100%);
+    background: linear-gradient(135deg, #8801ff 0%, #d902fb 100%);
     font-family: 'Arial', sans-serif;
 }
 
@@ -40,7 +40,7 @@ h2 {
     perspective: 1000px;
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-    background: linear-gradient(135deg, #f408e4 0%, #8801ff 100%);
+    background: linear-gradient(135deg,#8801ff  0%, #f408e4 100%);
     padding: 15px;
     display: flex;
     justify-content: center;
@@ -74,7 +74,7 @@ h2 {
 }
 
 .photo2 {
-    object-fit: cover;
+    
     top: 0;
     right: 0;
 }
@@ -102,6 +102,7 @@ h2 {
 
 .card:hover .photo1 {
     transform: translate(-50%, -50%) scale(1);
+    
 }
 
 .card:hover .photo2 {
